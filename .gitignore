@@ -1,0 +1,12 @@
+# ignore all bin directories
+# matches "bin" in any subfolder
+bin/
+
+# ignore all target directories
+META-INF/
+
+classes/
+lib/
+
+# ignore all files ending with ~
+*~ 
