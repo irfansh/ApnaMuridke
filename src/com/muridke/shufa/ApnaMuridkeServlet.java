@@ -36,6 +36,7 @@ public class ApnaMuridkeServlet extends HttpServlet {
 			facebookSR = FacebookSignedRequest.getFacebookSignedRequest(signedRequest);
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
+			e.getMessage();
 			e.printStackTrace();
 		}
 		String oauthToken = facebookSR.getOauth_token();
